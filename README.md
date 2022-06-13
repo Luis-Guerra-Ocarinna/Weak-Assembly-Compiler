@@ -9,7 +9,7 @@ Este projeto existe para facilitar a escrita manual da ROM, compilando mnemônic
 
 # Objetivos / Features
 
-   * [ ] Compilar mnemônicos de uma tabela predefinida em binário
+   * [x] Compilar mnemônicos de uma tabela predefinida em binário
    * [ ] Aceitar novos mnemônicos na tabela
    * [ ] Ler arquivo de planilha com os mnemônicos
 
@@ -20,7 +20,15 @@ $ ./weak-asm-compiler [ASM_PATH]
 ```
    *Sem argumento, compila o primeiro `.asm` encontrado na pasta atual*
 
+   - Arquivo `bin.md` será gerado
+
 ***Usando em uma IDE (como Falcon)***
-   - Altere o valor da variável 'asm_path' no código fonte para uma string representando o caminho do arquivo de mnemônicos
+   - Escreva o Assembly no mesmo diretório do código fonte
    - Rode o programa
+
+# Futuro
+
+  * Otimizar
+  * Utilizar métodos seguros para manipulaçao de string
+  * Gerenciar memória
 

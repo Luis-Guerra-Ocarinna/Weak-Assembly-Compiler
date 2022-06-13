@@ -1,0 +1,9 @@
+# How file should be
+skeletons/
+
+# Build files
+build/
+
+#
+aoc.asm
+bin.md
