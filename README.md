@@ -29,6 +29,6 @@ $ ./weak-asm-compiler [ASM_PATH]
 # Futuro
 
   * Otimizar
-  * Utilizar métodos seguros para manipulaçao de string
+  * Utilizar métodos seguros para manipulação de string
   * Gerenciar memória
 

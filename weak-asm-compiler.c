@@ -1,6 +1,5 @@
 #include <ctype.h>
 #include <glob.h>
-#include <regex.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -52,7 +51,7 @@ static command_t commands[] = {
 
 int main(int argc, char *argv[]) {
   char asm_path[256];
-  stpcpy(asm_path, argc > 1 ? argv[1] : find_asm());
+  strcpy(asm_path, argc > 1 ? argv[1] : find_asm());
 
   FILE *asmfp = fopen(asm_path, "r");
   if (asmfp == NULL) {
