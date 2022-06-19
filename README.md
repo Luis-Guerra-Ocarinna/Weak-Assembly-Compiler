@@ -2,6 +2,10 @@
 
 Um projeto de estudo para compilar Assembly em 'binário'.
 
+# **Descontinuado**
+   - Falta de acessibilidade (e paciência)
+   - Movido para projeto [web](https://github.com/Luis-Guerra-Ocarinna/Weak-Assembly-Compiler/tree/web)
+
 ### Contexto
 
 O trabalho final da disciplina de arquitetura na faculdade é criar uma CPU simulada.
