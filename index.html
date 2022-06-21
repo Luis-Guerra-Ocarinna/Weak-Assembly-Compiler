@@ -13,14 +13,90 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
         />
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link
+            rel="shortcut icon"
+            href="assets/img/favico.ico"
+            type="image/x-icon"
+        />
     </head>
-    <body>
-        Hello World!
+    <body class="bg-dark">
+        <header class="px-3 py-3 bg-dark text-white">
+            <div class="container">
+                <div
+                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+                >
+                    <a
+                        href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
+                        style="font-size: xx-large"
+                    >
+                        Weak Assembly Compiler
+                    </a>
+
+                    <ul
+                        class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
+                    >
+                        <li>
+                            <a
+                                href="https://github.com/Luis-Guerra-Ocarinna/Weak-Assembly-Compiler"
+                                class="nav-link"
+                                target="_blank"
+                            >
+                                <!-- <svg
+                                    class="bi d-block mx-auto mb-1"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <use xlink:href="#people-circle" />
+                                </svg> -->
+                                <img
+                                    width="40"
+                                    src="assets/img/GitHub-Mark-Light-120px-plus.png"
+                                    alt=""
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div name="options">
+                <div class="container">
+                    <div class="my-4 row">
+                        <div class="col-lg-6">
+                            <input
+                                class="form-control form-control-lg"
+                                type="file"
+                                id="file_input"
+                                accept=".asm,.s,text/plain"
+                            />
+                        </div>
+                        <div
+                            class="col-lg-6 d-grid gap-2 ms-auto"
+                            onclick="alert('Not implemented yet')"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-secondary disabled"
+                            >
+                                Open Editor
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="output"></div>
+        </main>
         <!-- JavaScript Bundle with Popper -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"
         ></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
